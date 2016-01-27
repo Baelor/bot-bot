@@ -1,0 +1,6 @@
+Metrics/AbcSize:
+  Max: 40
+Metrics/MethodLength:
+  Max: 40
+Lint/AmbiguousRegexpLiteral:
+  Enabled: false

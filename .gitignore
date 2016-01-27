@@ -1,0 +1,8 @@
+/.bundle/
+
+.idea/
+
+.rbenv-gemsets
+
+db/bot.db
+config.yml

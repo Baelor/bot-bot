@@ -1,0 +1,27 @@
+server:
+  host: irc.example.com
+  port: 6667
+
+# NickServ credentials
+nickserv:
+  user: BotBot
+  password: secret
+
+# Oper credentials
+oper:
+  username: BotBot
+  password: secret
+
+nick: BotBot
+realname: BotBot
+user: BotBot
+
+# all channels listed here will be joined
+channels:
+ - '#bots'
+
+# Oper class which will be assigned via SVSOPER
+bot_oper_class: bot
+
+# Log level. Log is printed to STDOUT by default.
+log_level: :info

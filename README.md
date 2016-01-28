@@ -18,12 +18,12 @@ allowing opers to manage the bots with commands. Tested with InspIRCd.
 
 `!resetbot <authname>` - Reset password
 
-### Bot Commands     
+### Bot Commands
 `IDENTIFY <password>` - Login as a bot (in PRIVMSG)
 
 ## Installation
 
- 1. Get Ruby (for example via [rbenv](https://github.com/rbenv/rbenv)). Tested 
+ 1. Get Ruby (for example via [rbenv](https://github.com/rbenv/rbenv)). Tested
     on Ruby 2.3
  2. Install bundler via `gem install bundler`
  3. Clone this repository and `cd` to your clone

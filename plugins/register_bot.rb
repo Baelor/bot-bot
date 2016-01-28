@@ -38,7 +38,7 @@ class RegisterBot
         authname: regbot.authname,
         password: password,
         added_by: m.user.authname,
-        added_at: DateTime.now
+        added_at: Time.zone.now
       )
     rescue Sequel::UniqueConstraintViolation
       m.reply "#{nick} (Auth: #{regbot.authname}) is already registered."

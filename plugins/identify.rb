@@ -29,7 +29,7 @@ class Identify
     end
 
     if db_bot.authenticate(password)
-      db_bot.last_login = DateTime.now
+      db_bot.last_login = Time.zone.now
       db_bot.last_login_nick = m.user.nick
       db_bot.save
       info "Successful login by #{m.user.authname}"
